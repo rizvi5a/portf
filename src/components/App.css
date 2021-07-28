@@ -1,0 +1,151 @@
+:root {
+  --primary: rgba(68, 88, 119, 1);
+  --secondary: rgba(146, 204, 206, 1);
+  --tertiary: rgb(17, 19, 17);
+  --dark: rgb(75, 79, 100);
+  --light: rgba(238, 238, 247, 1);
+}
+
+
+.App {
+  text-align: center;
+
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+img{
+  width:250px;
+  height:150px;
+}
+.App-header {
+ 
+  background-color: #0a59f8;
+  height:20%;
+  color: white;
+  min-height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  
+
+ 
+}
+a {
+  color:white;
+}
+.smallImage {
+  width:50px;
+  height:50px;
+}
+.About {
+   position:center;
+  left:0px;
+  font-size: medium; 
+  
+ 
+    
+  }
+
+
+ 
+
+.Resume {
+  position:relative;
+  left:0px;
+  font-size: medium;
+  
+  background-color: cyan;
+ 
+}
+
+.contact {
+  position:relative;
+  left:10px;
+  font-size: medium;
+  
+  background-color: #ff7b00;
+ 
+}
+
+.Portfolio {
+  background-color: rgb(255, 0, 170);
+}
+.AboutImage {
+  position:absolute;
+  left:20px;
+  width:200px;
+  height:200px;
+}
+.AboutImageDiv {
+  height: 300px;
+}
+.App-link {
+  color: #61dafb;
+}
+.Footer{
+  position:static;
+  top:95%;
+  left:45%
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.head-text {
+  font-family: 'Montaga', serif;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.hero-head {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.kuatracks.com/wp-content/uploads/hero-background-image-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-family: 'Montaga', serif;
+}
+
+.hero-title {
+  color: rgb(233, 222, 222);
+}
+
+.hero-footer {
+  color: white;
+}
+
+.project-btn {
+  width: 160px !important;
+  margin: 0 10px 10px 0;
+}
+
+.footer-btn {
+  margin-bottom: 5px;
+}
