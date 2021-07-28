@@ -44,16 +44,16 @@ class Contact extends React.Component {
         return (
             <div>
                 <h3 >Contact Syed</h3>
-                <p ><input type='text' id='email' placeholder='email'
-                onChange={this.emailChangeHandler} value={this.state.email}/></p>
+                <div style={{width: "400px",borderStyle:"solid",marginBottom:"4rem" ,borderWidth:"2px",borderColor:"blue", marginLeft:"2rem", marginTop:"2rem"}}><input type='text' id='email' placeholder='email'
+                onChange={this.emailChangeHandler} value={this.state.email}/></div>
                 
-                <p>
+                <div style={{width: "400px", borderWidth:"2px", borderColor:"blue", marginLeft:"2rem"}}>
                     <textarea id="message" placeholder="message" rows="5" cols="50"
                      onChange={this.messageChangeHandler} value={this.state.message}
                     >
 
                     </textarea>
-                </p>
+                </div>
                 <p>{this.state.alert}</p>
                 <p><button onClick ={this.sendContact}>Send</button></p>
             </div>
